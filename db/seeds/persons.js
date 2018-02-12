@@ -1,10 +1,10 @@
 exports.seed = knex => {
   // Deletes ALL existing entries
-  return knex('person')
+  return knex('persons')
     .del()
     .then(() => {
       // Inserts seed entries
-      return knex('person').insert([
+      return knex('persons').insert([
         { id: 1, name: 'Gassama', gender: 'Male', age: 23 },
         { id: 2, name: 'Alima', gender: 'Female', age: 43 },
         { id: 3, name: 'Mohamed', gender: 'Male', age: 34 },

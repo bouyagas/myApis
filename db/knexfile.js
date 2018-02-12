@@ -1,5 +1,5 @@
 module.exports = {
   client: 'pg',
-  connection: 'postgres://localhost/persons',
+  connection: 'postgres://localhost/person',
   useNullAsDefault: true,
 };
